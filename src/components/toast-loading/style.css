@@ -1,0 +1,50 @@
+.app-toast {
+    position: fixed;
+    z-index: 999;
+}
+
+.top-right {
+    top: 90px;
+    right: 20px;
+}
+
+.bottom-right {
+    bottom: 90px;
+    right: 20px;
+}
+.top-left {
+    bottom: 90px;
+    left: 20px;
+}
+.bottom-left {
+    top: 90px;
+    left: 20px;
+}
+
+.top-center {
+    top: 90px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.bottom-center {
+    bottom: 90px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.toast-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.visually-hidden {
+    margin-left: 5px;
+    padding-left: 5px;
+}
+
+.text-info {
+    margin-right: 5px;
+}

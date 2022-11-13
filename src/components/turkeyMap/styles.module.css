@@ -1,0 +1,72 @@
+.weather {
+    margin-top: 10px;
+}
+
+.imgBtn {
+    margin-bottom: -20px;
+}
+
+.cityImageDetail {
+    text-align: right;
+    position: relative;
+    bottom: 12rem;
+    text-align: left;
+    margin: 0 30px;
+    color: blanchedalmond;
+    font-size: 1.5rem;
+
+}
+
+.pageColor {
+    background-color: turquoise;
+}
+
+.imgClass {
+    margin-top: 10px;
+}
+
+.ImageCity {
+    height: 50px;
+    width: 100%;
+}
+
+.imgWeather {
+    position: relative;
+    bottom: 21rem;
+    margin: 0 90%;
+    color: yellow;
+}
+
+.imgAbsolute {
+    position: relative;
+    bottom: 8rem;
+    margin: 0 5rem;
+    color: white;
+}
+
+.bodyColor {
+    background-color: blanchedalmond;
+}
+
+.titleCity {
+    font-size: 3rem;
+}
+
+#divr {
+    width: 100%;
+}
+
+.CardArea {
+margin-top: 10px;
+}
+
+@media screen and (max-width:768px) {
+
+    .imgAbsolute {
+        position: inherit;
+        bottom: inherit;
+        margin: 0.25rem 0px;
+        color: inherit;
+        font-size: inherit;
+    }
+}

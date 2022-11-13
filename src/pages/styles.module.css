@@ -1,0 +1,18 @@
+.NewLine {
+    background-color: turquoise;
+    height: 600px;
+
+}
+
+.NewLinesMargin {
+    margin-top: 20px;
+}
+
+.NewLines {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 2.8rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: ghostwhite;
+    height: 300px;
+}

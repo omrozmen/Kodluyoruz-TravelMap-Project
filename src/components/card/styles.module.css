@@ -1,0 +1,15 @@
+.CardMargin {
+    margin-bottom: 10px;
+}
+
+.TypeCard {
+    position: relative;
+    bottom: 8rem;
+    margin: 0 5rem;
+    color: black;
+}
+
+.TagClass {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
