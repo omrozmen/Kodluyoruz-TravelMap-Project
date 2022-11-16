@@ -96,7 +96,6 @@ export default function ButtonBases() {
         <Box sx={{ display: 'flex', flexWrap: 'wrap', minWidth: 300, width: '100%' }}>
             {images.map((image) => (
                 <ImageButton
-                onClick={() => { console.log(image.title, "Deneme") }}
                     focusRipple
                     key={image.title}
                     style={{

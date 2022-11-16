@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+.NavbarClass {
+    background-color:rgba(182, 209, 72, 0.996);;
+}
+
+.imgPosition {
+    margin-left: 80px;
+}
 .searchForm {
     display: flex;
     justify-content: center;
@@ -6,6 +15,29 @@
     border-radius: 25px;
     min-width: 60%;
     overflow: hidden;
+}
+
+
+.styles {
+    font-size: 2.5rem;
+    font-family: 'Dancing Script', cursive;
+    margin-left: 50px;
+    color:aliceblue
+
+}
+
+.stylesLink {
+    font-size: 2.0 rem;
+    font-family: 'Dancing Script', cursive;
+    color:aliceblue
+
+}
+
+.stylesExample {
+    font-size: 2.0 rem;
+    font-family: 'Dancing Script', cursive;
+    color:rgb(42, 50, 7)
+
 }
 
 .input {
@@ -59,4 +91,3 @@
 #divr {
     width: 100%;
 }
-

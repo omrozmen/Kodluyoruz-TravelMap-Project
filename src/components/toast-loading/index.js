@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react"
 import "./style.css"
 
-const defaultClass = "top-right"
+const defaultClass = "top-bottom"
 const classNames = ["toast", "fade show app-toast", defaultClass]
 const _message = "Loading..."
 

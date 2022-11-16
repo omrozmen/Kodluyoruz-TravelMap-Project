@@ -2,7 +2,9 @@
     position: fixed;
     z-index: 999;
 }
-
+.auto{
+    text-align: center;
+}
 .top-right {
     top: 90px;
     right: 20px;

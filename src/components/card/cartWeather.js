@@ -7,20 +7,39 @@ import { CardActionArea } from '@mui/material';
 import classes from "./styles.module.css"
 
 export default function ActionAreaCardWeather(props) {
-    return (
-        <Card sx={{ maxWidth: 600 }}>
-            <CardActionArea>
+    let weatherCelcius = props.children[3]
+    let color = " rgba(33, 116, 232, 0.996)";
 
-                <CardMedia style={{ objectFit: "contain", backgroundColor: "rgb(197, 224, 228)" }}
-                    component="img"
-                    height="100"
-                    image={props.children[0]} />
-                <CardContent>
-                    <div className={classes.TagClass}>
-                        <i>   {props.children[1]}</i>
-                    </div>
-                </CardContent>
-            </CardActionArea>
-        </Card>
+    if (weatherCelcius >10) {
+        color = " rgba(33, 116, 232, 0.996)"
+    }
+    else{
+        color = "rgba(168, 194, 229, 0.996)";
+    }
+
+    return (
+        <div className={classes.cardClass} style={{ "background-color": color,borderRadius:"50px" }} >
+            <Card className={classes.cardClass} style={{ "background-color": color ,borderRadius:"50px"}}>
+                <CardActionArea className={classes.cardClass}>
+                    <CardContent className={classes.cardClass} style={{ "background-color": color,borderRadius:"50px" }}>
+                        <div className="row">
+                            <div className="col-md-5">
+                                <img src={props.children[0]} style={{ height: "150px" }} />
+                            </div>
+                            <div className="col-md-7">
+                                <div className={classes.Span}>
+                                    <span>
+                                        {props.children[2]}
+                                    </span>
+                                </div>
+                                <div>
+                                    <i className={classes.TagClass}> {props.children[1]} <b className={classes.celcius}>{props.children[3]}℃</b> </i>
+                                </div>
+                            </div>
+                        </div>
+                    </CardContent>
+                </CardActionArea>
+            </Card>
+        </div>
     );
 }

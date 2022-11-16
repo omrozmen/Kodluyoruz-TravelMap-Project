@@ -4,11 +4,12 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
-import cityImages from "../../static/image/cities/Malatya.png"
+
 import classes from "./styles.module.css"
 
 
-export default function ActionAreaCard({ city = "", body = "" }) {
+export default function ActionAreaCard({ city="Kodluyoruz",plateNumber = "Kodluyoruz", body = "" }) {
+    const cityImages = require(`../../static/image/cities/${plateNumber}.png`)
     return (
         <div className={classes.CardMargin}>
             <Card sx={{ maxWidth: 345 }}>

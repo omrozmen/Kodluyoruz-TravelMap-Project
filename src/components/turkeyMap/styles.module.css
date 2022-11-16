@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Lobster&display=swap');
+
 .weather {
     margin-top: 10px;
 }
@@ -16,13 +18,12 @@
     font-size: 1.5rem;
 
 }
-
-.pageColor {
-    background-color: turquoise;
+.pageColor{
+    opacity:0.5
 }
-
 .imgClass {
     margin-top: 10px;
+    border-radius: 5px;
 }
 
 .ImageCity {
@@ -32,16 +33,20 @@
 
 .imgWeather {
     position: relative;
-    bottom: 21rem;
+    bottom: 23rem;
     margin: 0 90%;
     color: yellow;
+    font-size: 3rem;
+    font-family: 'Lobster', cursive;
 }
 
 .imgAbsolute {
     position: relative;
-    bottom: 8rem;
+    bottom: 13rem;
     margin: 0 5rem;
     color: white;
+    font-size: 5rem;
+    font-family: 'Lobster', cursive;
 }
 
 .bodyColor {
@@ -57,7 +62,7 @@
 }
 
 .CardArea {
-margin-top: 10px;
+    margin-top: 10px;
 }
 
 @media screen and (max-width:768px) {

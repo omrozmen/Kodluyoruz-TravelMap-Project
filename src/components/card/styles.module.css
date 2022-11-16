@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Lobster&display=swap');
+
 .CardMargin {
     margin-bottom: 10px;
 }
@@ -11,5 +13,26 @@
 
 .TagClass {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+    margin-top: 10px;
+    font-size: 2.5rem;
+
+}
+.celcius{
+    font-size: 3rem;
+    color: antiquewhite;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.cardClass {
+    background-color: rgb(195, 216, 0);
+    border-radius: 40px;
+}
+
+.Span {
+    font-size: 3rem;
+    color: antiquewhite;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 20px;
+
 }
